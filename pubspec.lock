@@ -57,10 +57,11 @@ packages:
   flutter_easy_dialogs:
     dependency: "direct main"
     description:
-      name: flutter_easy_dialogs
-      sha256: "6410e4a05083ac1130f4c39e334919fea86ad3df6c954b4a4e01305603e0d64f"
-      url: "https://pub.dev"
-    source: hosted
+      path: "."
+      ref: fix-add-clone-methods-params
+      resolved-ref: "1fc251d8c0cd33623757375e1be14fb96f9caeec"
+      url: "https://github.com/martynov-alex/flutter_easy_dialogs"
+    source: git
     version: "4.0.2"
   flutter_lints:
     dependency: "direct dev"

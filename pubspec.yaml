@@ -12,7 +12,10 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  flutter_easy_dialogs: 4.0.2
+  flutter_easy_dialogs:
+    git:
+      url: https://github.com/martynov-alex/flutter_easy_dialogs
+      ref: fix-add-clone-methods-params
   flutter_localizations:
     sdk: flutter
 

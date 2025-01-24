@@ -42,8 +42,8 @@ class FeatureView extends StatelessWidget {
   }
 }
 
-const _dialogId = ObjectKey('dialog');
-const _modalId = ObjectKey('modal');
+const _dialogId = 'dialog';
+const _modalId = 'modal';
 
 Future<void> showDialog() async {
   final dialog = EasyDialog.fullScreen(
